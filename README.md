@@ -1,9 +1,12 @@
 # processing-seed
-*Standard Install:*
-`git clone https://github.com/ntno/processing-seed.git`
-open the index.html file in the browser
 
-*Processing Library Install Options:*
+## Standard Install:
++ clone or download the repository 
+  * `git clone https://github.com/ntno/processing-seed.git` 
+  * [zip file](https://github.com/ntno/processing-seed/archive/master.zip) then unzip
++ open the index.html file in the browser
+
+## Processing Library Install Options:
 1) (DEFAULT) use the processing.js file included in the processing-seed repository.
 `<script type="text/javascript" src="processing.js"></script>`
 
