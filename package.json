@@ -1,0 +1,26 @@
+{
+  "name": "processing-seed",
+  "version": "1.0.0",
+  "description": "simple set up for processingjs project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntno/processing-seed.git"
+  },
+  "keywords": [
+    "processingjs",
+    "tutorial",
+    "demo"
+  ],
+  "author": "ntno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntno/processing-seed/issues"
+  },
+  "homepage": "https://github.com/ntno/processing-seed#readme",
+  "dependencies": {
+    "processing-js": "^1.6.6"
+  }
+}
