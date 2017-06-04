@@ -1,0 +1,32 @@
+<script src="node_modules/processing-js/processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+void setup()
+{
+  //set size of canvas (width, height)
+  size(500,600);
+
+  //set background color to dark grey (0=black, 255=white)
+  background(125);
+
+  //set font color to orange (Red, Green, Blue)
+  fill(255, 150, 0);
+
+  //set font style
+  PFont myFirstFont = loadFont("courier");
+
+  //sent font size
+  textFont(myFirstFont, 14);
+
+  //draw once
+  noLoop();
+}
+
+void draw(){
+  //draw message at position 20,20
+  text("Hello World",20,20);
+
+  //print a message to the console
+  println("hello console :)");
+}
+</script>
+<canvas id="mycanvas"></canvas>
