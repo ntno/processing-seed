@@ -3,32 +3,8 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="./css/common.css">
     <script type="text/javascript" src="processing.js"></script>
-    <script type="text/processing" data-processing-target="myFirstCanvas">
 
-    //setup happens once
-    void setup(){
-      //set size of canvas (width, height)
-      size(500,600);
-
-      //set background color to dark grey (0=black, 255=white)
-      background(125);
-
-      //set font color to orange (Red, Green, Blue)
-      fill(255, 150, 0);
-
-      //set font style
-      PFont myFirstFont = loadFont("courier");
-
-      //sent font size
-      textFont(myFirstFont, 14);
-    }
-
-    //draw happens repeatedly
-    void draw(){
-      //draw message where the mouse is
-      text("Hello World",mouseX,mouseY);
-    }
-    </script>
+    <!-- <script type="text/processing" src="/sketches/helloWorld.pde" data-processing-target="myFirstCanvas"></script> -->
     <script type="text/processing" data-processing-target="mySecondCanvas">
     void setup(){
       size(600,600);
@@ -44,6 +20,6 @@
 
 
 <div>
-  <canvas id="myFirstCanvas" class="borderOn"></canvas>
+  <canvas data-processing-sources="sketches/helloWorld.pde" id="myFirstCanvas" class="borderOn"></canvas>
   <canvas id="mySecondCanvas" class="borderOn"></canvas>
 </div>
